@@ -1,0 +1,76 @@
+11 Mar 2025 10:44:52,757 INFO  ro.mpp2025.CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {} 
+11 Mar 2025 10:44:52,763 TRACE ro.mpp2025.CarsDBRepository 82 add - Enter Adding element: Id=0 Tesla Model S 2019
+11 Mar 2025 10:44:52,763 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 10:44:52,763 TRACE ro.mpp2025.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 10:44:52,763 INFO  ro.mpp2025.JdbcUtils 30 getNewConnection - trying to connect to database ... null
+11 Mar 2025 10:44:52,764 INFO  ro.mpp2025.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 10:44:52,764 INFO  ro.mpp2025.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 10:44:52,764 ERROR ro.mpp2025.JdbcUtils 41 getNewConnection - java.sql.SQLException: The url cannot be null
+11 Mar 2025 10:44:52,765 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit
+11 Mar 2025 10:48:18,669 INFO  ro.mpp2025.CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {} 
+11 Mar 2025 10:48:18,675 TRACE ro.mpp2025.CarsDBRepository 82 add - Enter Adding element: Id=0 Tesla Model S 2019
+11 Mar 2025 10:48:18,676 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 10:48:18,676 TRACE ro.mpp2025.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 10:48:18,676 INFO  ro.mpp2025.JdbcUtils 30 getNewConnection - trying to connect to database ... null
+11 Mar 2025 10:48:18,676 INFO  ro.mpp2025.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 10:48:18,676 INFO  ro.mpp2025.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 10:48:18,677 ERROR ro.mpp2025.JdbcUtils 41 getNewConnection - java.sql.SQLException: The url cannot be null
+11 Mar 2025 10:48:18,677 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit
+11 Mar 2025 10:48:34,476 INFO  ro.mpp2025.CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:/Users/mihaiadomnitei/Desktop/teme-lab-mitanu123/cars.db} 
+11 Mar 2025 10:48:34,482 TRACE ro.mpp2025.CarsDBRepository 82 add - Enter Adding element: Id=0 Tesla Model S 2019
+11 Mar 2025 10:48:34,482 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 10:48:34,482 TRACE ro.mpp2025.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 10:48:34,482 INFO  ro.mpp2025.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/mihaiadomnitei/Desktop/teme-lab-mitanu123/cars.db
+11 Mar 2025 10:48:34,483 INFO  ro.mpp2025.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 10:48:34,483 INFO  ro.mpp2025.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 10:48:34,946 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4fb3ee4e)
+11 Mar 2025 10:48:34,952 ERROR ro.mpp2025.CarsDBRepository 91 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+11 Mar 2025 10:48:34,952 TRACE ro.mpp2025.CarsDBRepository 94 add - Exit
+11 Mar 2025 10:48:34,953 TRACE ro.mpp2025.CarsDBRepository 120 findAll - Enter
+11 Mar 2025 10:48:34,953 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 10:48:34,953 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4fb3ee4e)
+11 Mar 2025 10:48:34,954 ERROR ro.mpp2025.CarsDBRepository 136 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+11 Mar 2025 10:48:34,954 TRACE ro.mpp2025.CarsDBRepository 139 findAll - Exit with([])
+11 Mar 2025 10:48:34,954 TRACE ro.mpp2025.CarsDBRepository 28 findByManufacturer - Enter
+11 Mar 2025 10:48:34,955 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 10:48:34,955 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4fb3ee4e)
+11 Mar 2025 10:48:34,956 ERROR ro.mpp2025.CarsDBRepository 45 findByManufacturer - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+11 Mar 2025 10:48:34,957 TRACE ro.mpp2025.CarsDBRepository 48 findByManufacturer - Exit with([])
+11 Mar 2025 10:49:53,305 INFO  ro.mpp2025.CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:/Users/mihaiadomnitei/Desktop/teme-lab-mitanu123/Masini.db} 
+11 Mar 2025 10:49:53,311 TRACE ro.mpp2025.CarsDBRepository 82 add - Enter Adding element: Id=0 Tesla Model S 2019
+11 Mar 2025 10:49:53,311 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 10:49:53,311 TRACE ro.mpp2025.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 10:49:53,312 INFO  ro.mpp2025.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/mihaiadomnitei/Desktop/teme-lab-mitanu123/Masini.db
+11 Mar 2025 10:49:53,312 INFO  ro.mpp2025.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 10:49:53,312 INFO  ro.mpp2025.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 10:49:53,608 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4fb3ee4e)
+11 Mar 2025 10:49:53,614 ERROR ro.mpp2025.CarsDBRepository 91 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+11 Mar 2025 10:49:53,615 TRACE ro.mpp2025.CarsDBRepository 94 add - Exit
+11 Mar 2025 10:49:53,615 TRACE ro.mpp2025.CarsDBRepository 120 findAll - Enter
+11 Mar 2025 10:49:53,615 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 10:49:53,615 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4fb3ee4e)
+11 Mar 2025 10:49:53,616 ERROR ro.mpp2025.CarsDBRepository 136 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+11 Mar 2025 10:49:53,616 TRACE ro.mpp2025.CarsDBRepository 139 findAll - Exit with([])
+11 Mar 2025 10:49:53,617 TRACE ro.mpp2025.CarsDBRepository 28 findByManufacturer - Enter
+11 Mar 2025 10:49:53,617 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 10:49:53,617 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4fb3ee4e)
+11 Mar 2025 10:49:53,618 ERROR ro.mpp2025.CarsDBRepository 45 findByManufacturer - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+11 Mar 2025 10:49:53,618 TRACE ro.mpp2025.CarsDBRepository 48 findByManufacturer - Exit with([])
+11 Mar 2025 10:50:47,194 INFO  ro.mpp2025.CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:/Users/mihaiadomnitei/Desktop/teme-lab-mitanu123/cars.db} 
+11 Mar 2025 10:50:47,202 TRACE ro.mpp2025.CarsDBRepository 82 add - Enter Adding element: Id=0 Tesla Model S 2019
+11 Mar 2025 10:50:47,202 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 10:50:47,202 TRACE ro.mpp2025.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 10:50:47,202 INFO  ro.mpp2025.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/mihaiadomnitei/Desktop/teme-lab-mitanu123/cars.db
+11 Mar 2025 10:50:47,202 INFO  ro.mpp2025.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 10:50:47,203 INFO  ro.mpp2025.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 10:50:47,498 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4fb3ee4e)
+11 Mar 2025 10:50:47,505 TRACE ro.mpp2025.CarsDBRepository 89 add - Inserted element: 1
+11 Mar 2025 10:50:47,505 TRACE ro.mpp2025.CarsDBRepository 94 add - Exit
+11 Mar 2025 10:50:47,506 TRACE ro.mpp2025.CarsDBRepository 120 findAll - Enter
+11 Mar 2025 10:50:47,506 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 10:50:47,506 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4fb3ee4e)
+11 Mar 2025 10:50:47,509 TRACE ro.mpp2025.CarsDBRepository 139 findAll - Exit with([Id=1 Tesla Model S 2019])
+11 Mar 2025 10:50:47,510 TRACE ro.mpp2025.CarsDBRepository 28 findByManufacturer - Enter
+11 Mar 2025 10:50:47,510 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 10:50:47,510 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4fb3ee4e)
+11 Mar 2025 10:50:47,511 TRACE ro.mpp2025.CarsDBRepository 48 findByManufacturer - Exit with([Id=1 Tesla Model S 2019])

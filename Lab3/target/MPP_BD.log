@@ -1,0 +1,18 @@
+11 Mar 2025 10:51:56,453 INFO  ro.mpp2025.CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:/Users/mihaiadomnitei/Desktop/teme-lab-mitanu123/cars.db} 
+11 Mar 2025 10:51:56,460 TRACE ro.mpp2025.CarsDBRepository 82 add - Enter Adding element: Id=0 Tesla Model S 2019
+11 Mar 2025 10:51:56,460 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 10:51:56,460 TRACE ro.mpp2025.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 10:51:56,460 INFO  ro.mpp2025.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/mihaiadomnitei/Desktop/teme-lab-mitanu123/cars.db
+11 Mar 2025 10:51:56,460 INFO  ro.mpp2025.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 10:51:56,461 INFO  ro.mpp2025.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 10:51:57,003 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f5acb9d)
+11 Mar 2025 10:51:57,012 TRACE ro.mpp2025.CarsDBRepository 89 add - Inserted element: 1
+11 Mar 2025 10:51:57,012 TRACE ro.mpp2025.CarsDBRepository 94 add - Exit
+11 Mar 2025 10:51:57,013 TRACE ro.mpp2025.CarsDBRepository 120 findAll - Enter
+11 Mar 2025 10:51:57,013 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 10:51:57,013 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f5acb9d)
+11 Mar 2025 10:51:57,015 TRACE ro.mpp2025.CarsDBRepository 139 findAll - Exit with([Id=1 Tesla Model S 2019, Id=2 Tesla Model S 2019])
+11 Mar 2025 10:51:57,016 TRACE ro.mpp2025.CarsDBRepository 28 findByManufacturer - Enter
+11 Mar 2025 10:51:57,016 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 10:51:57,016 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f5acb9d)
+11 Mar 2025 10:51:57,016 TRACE ro.mpp2025.CarsDBRepository 48 findByManufacturer - Exit with([Id=1 Tesla Model S 2019, Id=2 Tesla Model S 2019])
